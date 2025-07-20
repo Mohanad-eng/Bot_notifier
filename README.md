@@ -49,7 +49,8 @@ choose developer mode
 
 and then right click on the channel and choose channel ID and copy it 
 
-then add it to your code 
+then add it to your code in the CATEGORY_CHANNELS dictionary.
+
 
 # to run the bot 
 open discord server
