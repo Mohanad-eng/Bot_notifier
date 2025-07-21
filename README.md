@@ -55,11 +55,27 @@ then add it to your code in the CATEGORY_CHANNELS dictionary.
 # to run the bot 
 open discord server
 
-in the bash run 
+in the bash if your ide run 
 
 `python main.py`
 
+or in the cmd or bash 
+
+`cd to the folder you made`
+
+`python main.py`
+
+note that main.py is the file name and can change if you change it 
+
+if you want to delete the messages in a channel just write 
+
+`!clearall`
+
  see the topics sent from the website to server 
+
+# Resources 
+for more information see the discord documentation 
+
 
 
 
