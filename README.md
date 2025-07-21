@@ -76,6 +76,15 @@ if you want to delete the messages in a channel just write
 # Resources 
 for more information see the discord documentation 
 
+very useful site 
+
+https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://discordpy.readthedocs.io/&ved=2ahUKEwivgsKryM6OAxXHTqQEHbdVKUsQFnoECBsQAQ&usg=AOvVaw1bRR7dN8rOTzvUb5xbggI0
+
+discord developer site
+
+https://discord.com/developers/docs/intro
+
+
 
 
 
