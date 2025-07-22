@@ -201,7 +201,15 @@ async def on_message(message):
 
 @client.event
 async def on_member_join(member):
-    await mention_mentors()
+    await client.wait_until_ready()
+    guild = member.guild
+    welcome_channel = discord.utils.get(guild.text_channels, name="welcome-channel")
+
+    if welcome_channel:
+        await welcome_channel.send(f"Hello {member.mention}, welcome to the server!")
+        await mention_mentors()
+    else:
+        print("Welcome channel not found.")
 
 # === Auto mention mentors in welcome channel ===
 async def mention_mentors():
