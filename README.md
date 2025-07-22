@@ -37,6 +37,11 @@ log.txt (inside it the log results)
 sent_topics.json (put inside it topics and save it)
 
 and then you put the Token in your code in main.py 
+
+hint(you can use a .env file in the folder for safer use and put in it your token)
+
+write the channel name as in the code 
+
 and get the ID of the channel you use in code by
 
 Go to discord 
@@ -70,6 +75,16 @@ note that main.py is the file name and can change if you change it
 if you want to delete the messages in a channel just write 
 
 `!clearall`
+
+if you want to search using a word you can write in the welcome-channel 
+
+and of you want to stop searching write
+
+`!stop`
+
+and if you want to resume 
+
+`!resume`
 
  see the topics sent from the website to server 
 
