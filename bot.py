@@ -34,8 +34,10 @@ intents.guilds = True
 client = discord.Client(intents=intents) # make a bot client object
 stop_in_welcome =  False
 
- 
-logging.basicConfig(level=logging.INFO)
+
+
+logging.basicConfig(level=logging.INFO, filename="log.txt", filemode="a")
+
 
 # === Load sent topics ===
 if os.path.exists(SENT_TOPICS_FILE):  # check if the url exist
